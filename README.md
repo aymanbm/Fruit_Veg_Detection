@@ -20,8 +20,8 @@ This project uses **ResNet50V2** to classify fruits and vegetables as healthy or
 
 ## 🛠️ Setup & Installation  
 ```bash
-pip install tensorflow pandas numpy matplotlib seaborn scikit-learn
-
+pip install tensorflow pandas numpy matplotlib 
+```
 # 🍎 Model Architecture
 
 ## Transfer Learning with ResNet50V2
@@ -89,8 +89,6 @@ history = resnet_model.fit(train_data, validation_data=valid_data, epochs=8)
 | Apple__Healthy       | 27.91%     | Apple__Rotten             |
 | Bellpepper__Rotten   | 25.00%     | Bellpepper__Healthy       |
 
-## Training Curves
-Accuracy/Loss Curves <!-- Replace with your plot -->
 
 # 🖼️ Sample Predictions
 
