@@ -4,7 +4,7 @@
 ---
 
 ## 📌 Project Overview  
-This project uses **ResNet50V2** to classify fruits and vegetables as healthy or rotten using the [Kaggle Fruit and Vegetable Diseases Dataset](https://www.kaggle.com/datasets/...). Designed for automated quality control in agriculture, it achieves **~93% validation accuracy** after fine-tuning.
+This project uses **ResNet50V2** to classify fruits and vegetables as healthy or rotten using the [Kaggle Fruit and Vegetable Diseases Dataset](https://www.kaggle.com/datasets/muhammad0subhan/fruit-and-vegetable-disease-healthy-vs-rotten). Designed for automated quality control in agriculture, it achieves **~93% validation accuracy** after fine-tuning.
 
 ---
 
