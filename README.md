@@ -6,7 +6,7 @@
 ## 📌 Project Overview 
 
 This project uses **ResNet50V2** to classify fruits and vegetables as healthy or rotten, now wrapped in a full-stack **React** + **Flask** web application. Designed for automated quality control in agriculture and retail, it offers both batch import predictions and real-time webcam detection—with visual feedback, confidence percentages, and voice alerts when confidence exceeds 70%.
-Using : [Kaggle Fruit and Vegetable Diseases Dataset](https://www.kaggle.com/datasets/muhammad0subhan/fruit-and-vegetable-disease-healthy-vs-rotten). Designed for automated quality control in agriculture, it achieves **~93% validation accuracy** after fine-tuning.
+Using : [Kaggle Fruit and Vegetable Diseases Dataset](https://www.kaggle.com/datasets/muhammad0subhan/fruit-and-vegetable-disease-healthy-vs-rotten). It achieves **~93% validation accuracy** after fine-tuning.
 
 ---
 
