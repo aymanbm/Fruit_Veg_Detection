@@ -9,7 +9,21 @@ This project uses **ResNet50V2** to classify fruits and vegetables as healthy or
 Using : [Kaggle Fruit and Vegetable Diseases Dataset](https://www.kaggle.com/datasets/muhammad0subhan/fruit-and-vegetable-disease-healthy-vs-rotten). It achieves **~93% validation accuracy** after fine-tuning.
 
 ---
+## 🧩 App Features
 
+### 1. Import & Predict Upload
+- **Import Images:** Users can upload one or multiple images (JPEG/PNG) via the React interface.  
+- **Batch Prediction:** After selecting images, clicking **Predict** sends them to the Flask API, which returns class labels and confidence scores.  
+- **Results Display:** Predictions are displayed alongside thumbnails with percentage scores.
+
+### 2. Live Webcam Detection
+- **Real-Time Feed:** Access your device camera directly in the React app.  
+- **On-Side Prediction Panel:** Continuously shows the top prediction and confidence percentage next to the video stream.  
+- **Audio Alert:** When any detection confidence exceeds **70%**, a voice notification activates and announces:
+  ```js
+  const utterance = new SpeechSynthesisUtterance(`You are holding a ${prediction}`);
+  window.speechSynthesis.speak(utterance);
+  
 ## 🗃️ Dataset  
 - **Source**: [Kaggle Fruit and Vegetable Diseases Dataset](https://www.kaggle.com/datasets/muhammad0subhan/fruit-and-vegetable-disease-healthy-vs-rotten)  
 - **Classes**: 28 classes (e.g., `Apple__Healthy`, `Jujube__Rotten`)  
@@ -97,18 +111,5 @@ history = resnet_model.fit(train_data, validation_data=valid_data, epochs=8)
 
 ![image](https://github.com/user-attachments/assets/c1b2a7b4-8e5f-448b-9a05-fcf255e0aaec)
 
-## 🧩 App Features
 
-### 1. Import & Predict Upload
-- **Import Images:** Users can upload one or multiple images (JPEG/PNG) via the React interface.  
-- **Batch Prediction:** After selecting images, clicking **Predict** sends them to the Flask API, which returns class labels and confidence scores.  
-- **Results Display:** Predictions are displayed alongside thumbnails with percentage scores.
-
-### 2. Live Webcam Detection
-- **Real-Time Feed:** Access your device camera directly in the React app.  
-- **On-Side Prediction Panel:** Continuously shows the top prediction and confidence percentage next to the video stream.  
-- **Audio Alert:** When any detection confidence exceeds **70%**, a voice notification activates and announces:
-  ```js
-  const utterance = new SpeechSynthesisUtterance(`You are holding a ${prediction}`);
-  window.speechSynthesis.speak(utterance);
 
