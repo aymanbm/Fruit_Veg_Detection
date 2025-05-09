@@ -4,7 +4,7 @@
 ---
 
 ## 📌 Project Overview  
-This project uses **ResNet50V2** to classify fruits and vegetables as healthy or rotten using the [Kaggle Fruit and Vegetable Diseases Dataset](https://www.kaggle.com/datasets/...). Designed for automated quality control in agriculture, it achieves **~92% validation accuracy** after fine-tuning.
+This project uses **ResNet50V2** to classify fruits and vegetables as healthy or rotten using the [Kaggle Fruit and Vegetable Diseases Dataset](https://www.kaggle.com/datasets/...). Designed for automated quality control in agriculture, it achieves **~93% validation accuracy** after fine-tuning.
 
 ---
 
@@ -35,6 +35,7 @@ pip install tensorflow pandas numpy matplotlib
 - Output Layer (28 units, Softmax)
 
 **Model Architecture**
+```bash
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
 ┃ Layer (type)                    ┃ Output Shape           ┃       Param # ┃
 ┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
@@ -56,7 +57,7 @@ pip install tensorflow pandas numpy matplotlib
  Total params: 23,831,196 (90.91 MB)
  Trainable params: 266,140 (1.02 MB)
  Non-trainable params: 23,565,056 (89.89 MB)
-
+```
 ---
 
 # ⚙️ Training Strategy
