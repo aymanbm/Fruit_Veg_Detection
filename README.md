@@ -27,7 +27,7 @@ Using : [Kaggle Fruit and Vegetable Diseases Dataset](https://www.kaggle.com/dat
 ## 🗃️ Dataset  
 - **Source**: [Kaggle Fruit and Vegetable Diseases Dataset](https://www.kaggle.com/datasets/muhammad0subhan/fruit-and-vegetable-disease-healthy-vs-rotten)  
 - **Classes**: 28 classes (e.g., `Apple__Healthy`, `Jujube__Rotten`)  
-- **Image Count**: ~8,500 high-resolution images  
+- **Image Count**: ~29,000 high-resolution images  
 - **Split**:  
   - Training: 75%  
   - Validation: 25%  
